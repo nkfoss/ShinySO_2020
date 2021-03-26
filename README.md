@@ -19,7 +19,7 @@ Shiny is an R library that allows you to create interactive web apps with R. Com
 
 ## Challenges
 
-Despite the breadth of data provided by the Stack Overflow user survey, the quality was not necessarily ready for my exploration. I ran into two problems: some respondents did not indicate their professional role, and ...
+Despite the breadth of data provided by the Stack Overflow user survey, the quality was not necessarily ready for my exploration. I ran into two main problems.
 
 ### Data Scrubbing / Wrangling
 First problem... the actual results from the user-survey included over 64k responses, but 15K (nearly 25%) of the respondents didn't indicate their professional role. This becomes problematic when comparing results from respondents in a selected professional to results from all respondents as a whole. What do we do with the respondents who did not indicate their role? Dealing with nearly 25% of the results the wrong way could lead to inaccurate results. Therefore, I made the decision to not include these responses. Identifying and removing the responses was easy, though identifying the problem took time and careful consideration.
@@ -27,7 +27,7 @@ First problem... the actual results from the user-survey included over 64k respo
 ### Slow Rendering
 The second problem is with how the data is stored for the developer roles and the technologies desired to learn. It was not the case that each respondent had a column corresponding to each technology, with a true/false value indicating if they wanted to learn about it. Instead, there was column for each CATEGORY of technology they desired to learn (languages, databases, etc.) and a semicolon seperated list of the technologies they desired (databases example: MongoDB, PostgresSQL, Couch).
 
-While parsing this data is not complicated programmatically, doing so can be costly when rendering the graph (especially with 40k responses). My solution was to create columns that corresponded to each technology and professional role (remember that respondents could indicate multiple roles) with values of true/false.
+While parsing this data is not complicated programmatically, doing so can be costly when rendering the graph (especially with 40k responses). My solution was to create columns that corresponded to each technology and professional role (respondents could indicate multiple roles) with values of true/false.
 
 ## Preview
 
