@@ -1,12 +1,10 @@
 # R-Shiny + StackOverflow (2020)
 
-This repo is for an R-Shiny application for exploring data from the 2020 StackOverflow user-survey.
-
-Shiny is an R library that allows you to create interactive web apps with R. Combining Shiny with R's other packages, the user can graphically explore data and visually uncover trends.
+This repo is for an R-Shiny application for exploring data from the 2020 StackOverflow user-survey. The application allows the user to explore from over 40,000 respondents, categorized into 22 professional roles (where development is part of their job). In particular, we can explore the respondents' desires to learn over 100 different development technologies. 
 
 ## Introduction
 
-This project was done as an exploratory tool for me and other developers. Specifically, which technologies in the 'development' field are developers excited about and want to learn? Furthermore, which type of developers are excited about these technologies, and how do they compare to all developers as a whole?
+Shiny is an R library that allows you to create interactive web apps with R. Combining Shiny with R's other packages, the user can graphically explore data and visually uncover trends. This project was done as an exploratory tool for me and other developers. Specifically, which technologies in the 'development' field were people excited about and want to learn? Furthermore, which type of professionals (front-end devs, database admins, data scientists, etc). are excited about these technologies, and how do they compare to all developers as a whole?
 
 ## Technologies
 
