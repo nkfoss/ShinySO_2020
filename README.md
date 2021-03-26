@@ -2,6 +2,12 @@
 
 This repo is for an R-Shiny application for exploring data from the 2020 StackOverflow user-survey. The application allows the user to explore from over 40,000 respondents, categorized into 22 professional roles (where development is part of their job). In particular, we can explore the respondents' desires to learn over 100 different development technologies. 
 
+## Table of Contents
++ [Introduction](#introduction)
++ [Technologies](#technologies)
++ [Challenges](#challenges)
++ [Preview](#Preview?)
+
 ## Introduction
 
 Shiny is an R library that allows you to create interactive web apps with R. Combining Shiny with R's other packages, the user can graphically explore data and visually uncover trends. This project was done as an exploratory tool for me and other developers. Specifically, which technologies in the 'development' field were people excited about and want to learn? Furthermore, which type of professionals (front-end devs, database admins, data scientists, etc). are excited about these technologies, and how do they compare to all developers as a whole?
@@ -10,6 +16,8 @@ Shiny is an R library that allows you to create interactive web apps with R. Com
 
 - [Shiny](https://shiny.rstudio.com/) 
 - [ggplot2](https://www.r-graph-gallery.com/ggplot2-package.html) (a library for creating awesome graphs)
+
+## Challenges
 
 ## Preview
 
