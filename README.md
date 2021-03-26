@@ -12,3 +12,17 @@ This project was done as an exploratory tool for me and other developers. Specif
 
 - [Shiny](https://shiny.rstudio.com/) 
 - [ggplot2](https://www.r-graph-gallery.com/ggplot2-package.html) (a library for creating awesome graphs)
+
+## Preview
+
+Below you will see some screenshots and a quick walkthrough of the app's functionality.
+
+<img src="./screenshots/default_fixed.png" >
+
+The graph displays the proportion of respondents of who indicated they 'would like to learn more about' the given technology within the next year. The total number of respondents is indicated in the title (n = 49370). The current category of technologies is programming languages and we are currently viewing results from ALL developer roles (as opposed to only front-end, or back-end, etc).
+
+Now let's change the technology to webframe technologies... and the developer role to 'front-end developer'.
+
+<img src="./screenshots/front-end.png" >
+
+Now the graph has bar-pairs comparing all respondents (regardless of stated role), and respondents that indicated their role as front-end development. For example, 14% of all respondents indicated wanting to learn more about Express in the next year, compared 21% of front-end developers. Also notice that we can see the totals for both categories in the legend. 
